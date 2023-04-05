@@ -14,10 +14,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "15599295") 
-API_HASH = os.environ.get("API_HASH", "4ce42998f7df4a64934294dadca28ae0") 
-SESSION_NAME = os.environ.get("SESSION_NAME", "")
-MONGO_URL = os.environ.get("MONGO_URL", "") 
+API_ID = os.environ.get("API_ID", "21124451") 
+API_HASH = os.environ.get("API_HASH", "d0c75e0e8ae1f79ddad10a033411f9ed") 
+SESSION_NAME = os.environ.get("SESSION_NAME", "BQCJ5Z8QiwpNaOU-_sEp_yJow33i4PPfuP9MyMaZpP8wJBacP6ZFkW5f_9oe0WmQnZl-3FZOyGVcRn3gnmNeHs6nvtsQfM5t4KseoA0rJLL8ewm6E3EzMtEj4QAhf_3UwHUNTR7BGzFpob2C8_xRl_RrbIdNBdzx1vRCx0OwTOmr-fIZrOMhos17HEdntfg9C6W50m211QSaXhCfdBEm3kKGu38mjGqMkyt-oiUXKeHiy-zC1aOIoDNZnhuYqx5-1GYsCVw6ALLYh5WivUW_3c6pBDnMLU0Mv2UOXju-eznS9YSDEWEPYEn1-55ZShiz2UPlucyTkKQzkMvGwpUoI-BFAAAAAWTX6CIA")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Brokenxd:brokenxd2h@cluster0.ysev4f6.mongodb.net/?retryWrites=true&w=majority") 
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
